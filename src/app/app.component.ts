@@ -11,20 +11,22 @@ export class AppComponent {
 
   posts = [
     {
-      name: 'Mon premier post',
-      content: 'blablabl',
-      date: new Date(),
-      like: 0,
+      title: 'Mon premier post',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum elit quis ligula pretium auctor',
+      created_at: new Date(),
+      loveIts: 0,
     },
     {
-      name: 'Mon deuxieme post',
-      content: 'blablabl',
-      date: new Date(),      like: 0,
+      title: 'Mon deuxieme post',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum elit quis ligula pretium auctor',
+      created_at: new Date(),
+      loveIts: 0,
     },
     {
-      name: 'Mon troisieme post',
-      content: 'blablabl',
-      date: new Date(),      like: 0,
+      title: 'Mon troisieme post',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum elit quis ligula pretium auctor',
+      created_at: new Date(),
+      loveIts: 0,
     },
   ]
 

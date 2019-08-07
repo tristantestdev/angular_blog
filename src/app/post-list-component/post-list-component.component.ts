@@ -7,10 +7,10 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class PostListComponentComponent implements OnInit {
 
-  @Input() postName:string;
-  @Input() postDesc:string;
-  @Input() postDate:Date;
-  @Input() postLike:number;
+  @Input() postTitle:string;
+  @Input() postContent:string;
+  @Input() postCreated_at:Date;
+  @Input() postLoveIts:number;
 
 
 
@@ -20,9 +20,9 @@ export class PostListComponentComponent implements OnInit {
   }
 
   onLike(){
-    this.postLike = this.postLike+1;
+    this.postLoveIts = this.postLoveIts+1;
   }
   onDislike(){
-    this.postLike = this.postLike-1;
+    this.postLoveIts = this.postLoveIts-1;
   }
 }
